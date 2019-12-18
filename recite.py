@@ -3706,7 +3706,7 @@ def buildcmd(command):
 		if "win" in sys.platform:
 			cmd += ' "%s' % url
 		else:
-			cmd += ' "http://schemas.dmtf.org/wbem/wscim/1/cim-schema/%s' % url[4:].replace("+", ",")
+			cmd += ' "http://schemas.dmtf.org/wbem/wscim/1/cim-schema/%s' % url[4:].replace("+", "&")
 
 		if GETPARAMS in mdata:
 			if not method in METAMETHODS:

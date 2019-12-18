@@ -1,3 +1,13 @@
+
+Fixes from upstream:
+
+ - wsman URLs should use '&' not ',' separators to avoid:
+
+```
+Maybe wrong use of ',' separator in URI, should be '&'
+```
+
+
 Purpose
 -------
 
